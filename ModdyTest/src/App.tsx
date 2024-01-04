@@ -1,5 +1,14 @@
+import Clipboard from "./components/Clipboard";
+import TestField from "./components/TestField";
+
 const App = () => {
-  return <div></div>;
+  return (
+    <div>
+      <Clipboard />
+      <br />
+      <TestField />
+    </div>
+  );
 };
 
 export default App;
